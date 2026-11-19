@@ -29,24 +29,26 @@ Procedure
 •	Rectifier output 
 •	Filter output 
 •	Regulated output 
-•	Load voltage 
+•	Load voltage
+
+CIRCUIT DIAGRAM:
+<img width="1911" height="437" alt="Screenshot 2026-11-19 102519" src="https://github.com/user-attachments/assets/9dfc6ace-eb2d-485d-9b84-454bfd9c6aa7" />
+
+AC INPUT WAVEFORM:
+<img width="1902" height="565" alt="Screenshot 2026-11-19 102526" src="https://github.com/user-attachments/assets/12dff7df-3aff-4895-b956-ae08e3682b64" />
+
+OUTPUT GRAPH:
+
+SIGNAL OUTPUT WITHOUT FILTER:
+<img width="1920" height="1080" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/237afcc2-99cc-4568-a118-b293129928db" />
+
+SIGNAL OUTPUT WITH FILTER:
+<img width="1920" height="1080" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/7dc02843-c51c-41c9-a76f-daa5876e4793" />
+<img width="1131" height="611" alt="Screenshot 2026-11-19 103454" src="https://github.com/user-attachments/assets/e55840c0-7694-4634-a594-a435e7297882" />
+
+
 ________________________________________
-Observation
 
-
-
-
-1. AC Input Waveform
-The AC input waveform is observed in LTspice before applying it to the transformer.
-2. Transformer Output
-The transformer secondary output waveform is observed after running the simulation.
-3. Signal Output – Without Filter
-The output of the bridge rectifier is observed. The waveform is a pulsating DC waveform.
-4. Signal Output – With Filter
-The smoothing capacitor is connected across the rectifier output. The capacitor reduces the variations in the rectified waveform and produces a smoother DC output.
-5. Stable Regulated DC Output
-The Zener diode regulator and load are connected. A stable regulated DC output is obtained at the load.
-________________________________________
 Result
 
 
